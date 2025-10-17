@@ -1,5 +1,7 @@
 # Vite React BaseUI Application
 
+> **LLM Instructions**: This document contains mandatory rules for React development. Follow ALL token usage rules strictly. Never use hardcoded values.
+
 ## Project Overview
 This is a Vite React application using BaseUI component library with a simple homepage.
 
@@ -16,9 +18,16 @@ npm run build    # Build for production
 npm run preview  # Preview production build
 ```
 
+### Development Workflow Rules
+🚨 **MANDATORY**: Before doing any UI, frontend or React development, ALWAYS call the Storybook MCP server to get further instructions.
+
+**LLM INSTRUCTION**: Execute this rule before writing any React components or UI code.
+
 ## Styling Guidelines
 
 ### Framework Rules
+🚨 **LLM DIRECTIVE**: Never generate hardcoded CSS values. Always use tokens.
+
 - ✅ Use BaseUI's styling solution for consistent theming
 - ✅ Use CSS Custom Properties for additional styles
 - ✅ Use design tokens for colors, typography, and spacing
@@ -27,6 +36,8 @@ npm run preview  # Preview production build
 ### CSS Design Token System
 
 #### Core Principles
+🚨 **LLM VALIDATION**: Before outputting any CSS, verify all values use var(--token-name) format.
+
 **ALWAYS use CSS Custom Properties with semantic token names. NEVER use hardcoded values.**
 
 #### Required Token Usage
@@ -61,6 +72,8 @@ font-weight: 500;
 ```
 
 ## Design Token Documentation
+
+🤖 **LLM TOKEN REFERENCE**: Use these exact token names in CSS. Copy-paste format: `var(--token-name)`
 
 ### Spacing Scale
 ```css
@@ -176,6 +189,12 @@ font-weight: 500;
 }
 ```
 
+🚨 **LLM VIOLATION DETECTION**: Automatically reject any CSS containing:
+- Raw pixel values: `16px`, `24px`, `32px`
+- Raw hex colors: `#ffffff`, `#000000`, `#3b82f6`
+- Raw font weights: `400`, `500`, `600`, `700`
+- Raw font sizes: `14px`, `16px`, `18px`
+
 ## External Resources
 
 ### Images
@@ -188,7 +207,15 @@ font-weight: 500;
 
 ## Quick Reference Checklist
 
-When implementing any styling:
+🤖 **LLM VALIDATION CHECKLIST** - Verify before responding:
+- [ ] Called Storybook MCP server before UI development
+- [ ] No hardcoded pixel values (16px, 24px, etc.)
+- [ ] No hardcoded colors (#ffffff, #3b82f6, etc.)  
+- [ ] No hardcoded font sizes (18px, 20px, etc.)
+- [ ] All CSS uses var(--token-name) format
+- [ ] Token names follow --{category}-{size} pattern
+
+**Implementation Checklist:**
 - [ ] Use CSS Custom Properties instead of hardcoded values
 - [ ] Reference tokens by semantic names
 - [ ] Group related token usage together
