@@ -1,6 +1,6 @@
 ---
 description: 'Figma LLM readiness analyzer that scores design files for automated code generation optimization. Evaluates component structure, naming patterns, and design system adherence.'
-tools: ['Figma Dev Mode MCP/*']
+tools: ['Figma Dev Mode MCP/*', 'todos']
 ---
 <instructions>
 # Figma LLM Readiness Analyzer

@@ -1,7 +1,7 @@
 ---
 mode: Context Engineer
 description: 'Specialized agent for systematic UI component analysis using Atomic Design methodology with Figma integration and Screenshot processing'
-tools: ['edit', 'runCommands', 'Figma Dev Mode MCP/*', 'fetch']
+tools: ['edit', 'runCommands', 'Figma Dev Mode MCP/*', 'fetch', 'todos']
 ---
 <instructions>
 <agent_identity>
