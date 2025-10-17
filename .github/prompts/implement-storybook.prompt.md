@@ -1,6 +1,7 @@
 ---
 mode: agent
 description: 'Comprehensive Storybook implementation specialist that transforms .context/ UI analysis and design tokens into complete, production-ready component libraries. Generates React components, BaseUI integration, accessibility-compliant stories, and interactive documentation with full TypeScript support.'
+tools: ['edit', 'runNotebooks', 'search', 'new', 'runCommands', 'runTasks', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'extensions', 'todos', 'runTests']
 ---
 
 <instructions>
