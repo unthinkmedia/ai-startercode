@@ -60,6 +60,40 @@ This project is set up with BaseUI components and theming:
 - BaseUI components are fully TypeScript typed
 - Hot reload is enabled for instant feedback during development
 
+## Configuration & AI Development Resources
+
+The `.github/` folder contains specialized configuration files designed to enhance AI-assisted development and maintain consistency across the project:
+
+### 📋 **Instructions** (`/.github/instructions/`)
+- **`copilot-instructions.md`** - Core development guidelines and mandatory rules for React/BaseUI development, including design token usage and styling patterns
+- **`unsplash.instructions.md`** - Configuration for dynamic photo placeholders with URL patterns and usage examples  
+- **`vibe-icon.instructions.md`** - Integration guide for Microsoft Fluent Icons web components with 200+ icon references
+
+### 🎯 **Prompts** (`/.github/prompts/`)
+- **`analyze-figma-llm-readiness.prompt.md`** - Analyzes Figma designs for LLM implementation readiness
+- **`analyze-ui-design.prompt.md`** - Comprehensive UI design analysis and component breakdown
+- **`implement-storybook.prompt.md`** - Automated Storybook implementation following atomic design patterns
+- **`write-token-strategy.prompt.md`** - Design token strategy development and CSS custom property planning
+
+### 💬 **Chat Modes** (`/.github/chatmodes/`)
+- **`Context Engineer.chatmode.md`** - Specialized AI assistant mode for architectural decisions and context management
+
+### 🔗 **How They Work Together**
+
+**Design-to-Code Workflow:**
+1. Use `analyze-ui-design.prompt.md` to break down design files
+2. Apply `write-token-strategy.prompt.md` to establish consistent design tokens
+3. Follow `copilot-instructions.md` rules for implementation
+4. Leverage `implement-storybook.prompt.md` for component documentation
+5. Integrate assets using `unsplash.instructions.md` and `vibe-icon.instructions.md`
+
+**Use Cases:**
+- **Component Development** - Instructions ensure consistent BaseUI patterns and design token usage
+- **Design System Maintenance** - Prompts automate analysis and token strategy updates  
+- **Asset Integration** - Streamlined workflow for images and icons in development
+- **Code Review** - Automated checks against established guidelines and patterns
+- **Onboarding** - New developers can quickly understand project conventions and AI-assisted workflows
+
 ## Technologies Used
 
 - **Vite** - Build tool and dev server

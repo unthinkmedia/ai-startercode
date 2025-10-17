@@ -45,7 +45,7 @@ const Card = ({ title, description, actionText, onClick }: {
 )
 
 const meta = {
-  title: 'BaseUI/Card',
+  title: '02-Molecules/Card',
   component: Card,
   parameters: {
     layout: 'centered',

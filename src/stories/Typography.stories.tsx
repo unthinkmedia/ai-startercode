@@ -54,7 +54,7 @@ const TypographyShowcase = () => (
 )
 
 const meta = {
-  title: 'BaseUI/Typography',
+  title: '01-Atoms/Typography',
   component: TypographyShowcase,
   parameters: {
     layout: 'centered',
