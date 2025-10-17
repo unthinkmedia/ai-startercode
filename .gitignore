@@ -25,3 +25,6 @@ dist-ssr
 
 # Context folder
 .context
+
+*storybook.log
+storybook-static
