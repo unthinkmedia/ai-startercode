@@ -223,3 +223,6 @@ font-weight: 500;
 - [ ] Follow naming conventions for new tokens
 - [ ] Prefer BaseUI components over custom styling
 - [ ] Use semantic color aliases over direct color references
+
+**Documentation**
+- When introducing a new chatmode, instruction, prompt, or workflow, update the README.md with clear usage guidelines and examples.
