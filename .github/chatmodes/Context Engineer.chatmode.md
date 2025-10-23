@@ -2,6 +2,7 @@
 description: 'Context Engineering expert that handles research, analysis, summarization, and documentation tasks. Creates LLM-optimized content and saves structured markdown files with timestamps.'
 
 tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'extensions', 'todos', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo']
+
 ---
 
 # Context Engineering Documentation Agent
