@@ -12,7 +12,7 @@ function App() {
       backgroundColor="primary50"
     >
       <HeadingXXLarge marginBottom="scale800">
-        "Let's Gooooo!"
+        'Let's Gooooo!'
       </HeadingXXLarge>
     </Block>
   )
