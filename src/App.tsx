@@ -13,7 +13,7 @@ function App() {
     >
       <HeadingXXLarge 
         marginBottom="scale800"
-        color="green"
+        color="purple"
       >
         Let's Gooooo!
       </HeadingXXLarge>
