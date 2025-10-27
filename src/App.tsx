@@ -11,11 +11,8 @@ function App() {
       height="100vh"
       backgroundColor="primary50"
     >
-      <HeadingXXLarge 
-        marginBottom="scale800"
-        color="purple"
-      >
-        Let's Gooooo!
+      <HeadingXXLarge marginBottom="scale800">
+        "Let's Gooooo!"
       </HeadingXXLarge>
     </Block>
   )
