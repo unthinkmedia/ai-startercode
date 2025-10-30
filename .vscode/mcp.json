@@ -11,5 +11,6 @@
         "@executeautomation/playwright-mcp-server"
       ]
     }
+    
   }
 }
